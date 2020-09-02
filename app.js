@@ -12,6 +12,8 @@ const makeCommit = (x, y,n ) => {
     // const DATE = moment().subtract(1, 'd').format();
     const DATE = moment().subtract(1, 'y').add(1, 'd').add(x,'w').add(y,'d').format();
     
+
+    
     const data = {
         date: DATE
     }
